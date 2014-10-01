@@ -1,0 +1,144 @@
+
+h1 {
+color: #BECD00;
+    font-size: 18px;
+    font-family: verdana;
+    text-align: left;
+}
+#annuaire{
+    text-align: left;
+    font-size: 12px;
+    font-family: Verdana;
+}
+
+h2 {
+    font-family: Verdana;
+}
+
+h3 {
+    font-family: Verdana;
+    color:#CC071E;
+    
+}
+
+h4 {
+    text-align: left;
+    font-family: Verdana;
+     color:#0056A2;
+}
+
+h5 {
+    font-family: Verdana;
+}
+
+h6 {
+    font-family: Verdana;
+}
+
+p {
+    font-size: 14px;
+    font-family: Verdana;
+    text-align: left;
+}
+
+a:link {
+    color: #BECD00;
+    text-decoration:none;
+}
+
+a:visited {
+    color: #BECD00;
+    text-decoration:none;
+}
+
+a:active {
+    color: #BECD00;
+    text-decoration:none;
+}
+
+a:hover {
+    color: #BECD00;
+    text-decoration:none;
+}
+
+
+.actualite:link{    
+    color: #BECD00;
+}
+.actualite:visited{    
+    color: #BECD00;
+
+}
+
+label {
+    display:inline-block;
+    padding:3px 0 0;
+    width:100px;
+    font-weight:bold;
+}
+#menu {
+    text-align: left;
+    margin-right: 20px;
+    font-family: verdana ;
+}
+
+#menu li {
+    padding-top: 10px;
+    padding-bottom: 3px;
+    list-style-type: none;
+    font-family: verdana ;
+    font-size: 16px;
+    background-image: url(../images/barre.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    margin-left: -10px;
+    text-decoration:none;
+    color:#CCCCCC
+}
+#menu li:hover {
+    color:#BECD00;
+    background: none;
+}
+
+#menu a {
+    color: #CCCCCC;
+}
+
+#menu a:hover{
+    color: #BECD00;
+}
+
+ul.niveau2{
+    display:none ;
+}
+li:hover ul.niveau2{
+    display:block;
+}
+
+
+ul:hover ul li{
+    list-style-image: url(../images/pucetriangle.png); 
+    display:block;
+
+}
+
+ul:hover ul li a{
+    font-size: 10pt;
+}
+pre{
+    font-family: verdana ;
+}
+
+#page table{
+
+}
+
+#menu li .en-cours{    
+    color: #BECD00;
+                  
+}
+#menu ul .en-cours{    
+    color: #BECD00;
+                  
+}
+

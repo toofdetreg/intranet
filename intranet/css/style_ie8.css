@@ -1,0 +1,19 @@
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section, #colonegauche, #colonedroite{
+	display:block;
+        border: none;
+}
+
+a img
+{
+border: none;
+}
+
+img
+{
+border: none;
+}
+input, text { color: #000; }
+.placeholder { color: #aaa; }
+#trombi{
+   width: 50px;
+}

@@ -1,0 +1,36 @@
+<div id="menu">
+    <ul>
+    	<li><a href="index.php">Accueil</a></li>
+        <li><a href="actu.php">Actualit&eacute;</a></li>
+        <li><a href="revuepresse.php">Revue De Presse</a></li>
+        <li>Location/Vente
+            <ul  class="niveau2">
+                <li><a href="coinvente.php">Le coin des ventes</a></li>
+                <li><a href="louer.php">A louer</a></li>
+            </ul>
+		</li>
+        <li>Chantiers
+            <ul class="niveau2">
+                <li><a href="chantier.php">Chantiers phares</a></li>
+                <li><a href="nouveauchantier.php">Nouveaux Chantiers</a></li>
+            </ul>
+		</li>
+        <li><a href="catlogement.php">Catalogue Logement </a></li>
+        <li><a href="rh.php">Ressources humaines</a></li>
+        <li>Comit&eacute; d'entreprise
+            <ul class="niveau2">
+                <li><a href="pv.php">PV r&eacute;unions</a></li>
+                <li><a href="activite.php">Activit&eacute;s COS</a></li>
+                <li><a href="reglement.php">R&egrave;glement Int&eacute;rieur</a></li>
+            </ul>
+		</li>
+        <li>CHSCT
+            <ul class="niveau2">
+                <li><a href="reunion.php">PV r&eacute;unions</a></li>
+                <li><a href="infodiverse.php">Informations Diverses</a></li>
+           </ul>
+		 </li>
+          <li><a href="mesi.php"> ME-SI</a></li>
+        <li><a href="coordonnee.php">Acc&egrave;s/ Coordonn&eacute;es</a></li>
+    </ul>
+</div>

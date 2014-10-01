@@ -1,0 +1,19 @@
+<?php
+require 'connexion.php';
+$todayy=date("Y-m");
+$today=date("d/m/Y");
+$i=0;        
+$sql = "SELECT * FROM RevueDePresse WHERE dateEnr like '%2013-09%'";    
+$req = $bdd->query($sql);    
+?>
+<div>Revue de presse du : <?php echo $today ;?></div>
+<?php
+while($row = $req->fetch()) {
+if ($i <= 3){    
+ $image = '<a href="/RevuePresse/RP_Octobre_2013/2013 10 15 LT_02.jpeg" data-lightbox="revuepresse"><img src="/Miniatures' . substr($row['chemin'],18) ."/". $row['nom'].'" width="70" height="90"></a>';
+ echo $image;
+ $i++;    
+	}
+}
+$req->closeCursor();    
+?>

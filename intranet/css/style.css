@@ -1,0 +1,325 @@
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+time, mark {display:inline;}
+
+body{
+    background-image:url(../images/body.png);
+    text-align: center;
+    font-family: verdana;
+    font-size: 12px;
+    line-height: 150%;
+    height: 800px;
+
+}
+#wrapper{
+
+    background-color: #ffffff;
+    text-align: center;
+    margin: auto;
+    width: 1200px;
+    height: 800px;
+}
+
+header{
+    height: 150px;
+}
+#fete{
+    text-align: justify;
+    margin-left: 500px;
+
+}
+#titreimg{
+    margin-top:20px;
+    position : relative;
+    margin-left:49px;
+    z-index : 1;
+    height: 52px;
+    width: 277px;
+    background-image: url(../images/intranet.png);
+    background-repeat: no-repeat;
+
+}
+#logo{
+    position : relative;
+    margin-top:30px;
+    margin-left:49px;
+    z-index : 1;
+    height: 96px;
+    background-image: url(../images/logo.png);
+    background-repeat: no-repeat;
+}
+nav {
+    float: left;
+    vertical-align: top;
+    display: inline-block;
+    width: 225px;
+    height: 800px;
+    background:#454246
+}
+
+#page{
+display: inline-block;
+    min-width:650px;   
+    height:650px;
+    overflow : auto;
+}
+
+#article{    
+    margin-bottom: 50px;
+    max-width : 650px;
+
+}
+#article li{
+       text-align: left;
+    list-style-image : url(../images/etoile.png);
+    
+}
+#colonegauche{
+    margin-left: 10px;
+    float: left;
+    text-align: center;
+    display: inline-block;
+}
+#colonedroite{
+    float: left;
+    margin-left: 50px;
+    text-align: center;
+    display: inline-block;
+}
+aside{
+    position: relative;
+    float: right;
+    margin-right: 30px;
+    text-align: left;
+    width: 205px;
+    height: 650px;
+
+}
+#hebdobox{    
+    margin:auto;
+    vertical-align: top;
+    width: 280px;
+    height: 227px;
+    border: 1px #F2F2F2 groove ;
+    box-shadow: 6px 6px 10px #F2F2F2;
+}
+#entete{
+    height:26px;
+}
+#hebdo{
+    height: 35px;
+    margin-left: -8px;
+    background-image: url(../images/hebdo.png);
+    background-repeat: no-repeat;
+
+}
+#revupressebox{
+    margin:auto auto 30px auto;
+    vertical-align: top;
+    width: 280px;
+    height: 326px;
+    border: 1px #F2F2F2 groove ;
+    box-shadow: 6px 6px 10px #F2F2F2;
+
+}
+#revuepresse{
+    margin-left: -8px;
+    text-align: right;
+    height: 35px;
+    margin-left: -8px;
+    background-image: url(../images/revuepresse.png);
+    background-repeat: no-repeat;
+}
+#actualites{   
+    position: relative;
+    margin:auto; 
+    width: 281px;
+    height: 472px;
+    border: 1px #F2F2F2 groove ;
+    box-shadow: 6px 6px 10px #F2F2F2;
+    overflow:auto;
+}
+#autrebox{ 
+    position: relative;
+    margin: 10px auto;
+    vertical-align: central;
+    width: 281px;
+    height: 101px;
+    background-color:#454246;
+    border: 1px #F2F2F2 groove ;
+    box-shadow: 6px 6px 10px #F2F2F2;
+}
+#annuaire{
+    text-align: left;
+    background: #DDDDDD;
+    border: 1px #F2F2F2 groove ;
+    box-shadow: 6px 6px 10px #F2F2F2;
+    height: 231px;
+}
+#idannuaire{
+    margin-top: 10px;
+}
+
+#afficherp{
+    margin-top: 30px;
+    height: 139px;
+overflow:hidden;
+}
+#afficherp img{
+    margin-bottom: 90px;
+}
+
+#rechercherp{
+    background-color : #60BEE8;
+    height: 122px;
+}
+#affichehebdo{
+    height: 105px;
+    text-align: left;
+    margin-left: 40px;
+
+}
+#recherchehebdo{
+    background-color : #B7C800;
+    height: 87px;
+}
+#nouvelleembauche{
+    height: 250px;
+    margin-top: 30px;
+    background: #DDDDDD;
+    border: 1px #F2F2F2 groove ;
+    box-shadow: 6px 6px 10px #F2F2F2;
+}
+#coinpage{
+	margin-top : 26px;
+	margin-left : 90px;
+
+}
+#recherche {
+    height: 75px;
+    float: right;
+    margin-right: 60px;
+    text-align: left; 
+    margin-top:25px;
+}
+
+
+#rechercherp {
+    float: left;
+}
+#rprecherche select{
+    display: block;
+    margin-top: 20px;
+    margin-left: 20px;
+    float: left;
+    vertical-align: middle;    
+}
+#rprecherche input dateEntre{
+ 
+    float: left;
+    margin-left: 65px;
+    vertical-align: middle;    
+}
+#affichactcu{
+    display: block;
+    float: left;
+    margin-top: 10px;
+    text-align: left;    
+}
+#trombi{
+    vertical-align: central;
+    display: inline-block;
+
+    margin-top: 10px;
+    text-align: left;    
+    width: 500px;
+}
+
+#psla img {
+  vertical-align:middle;
+}
+#psla th{
+    text-align: left;
+}
+#psla h1{
+ 
+}
+#psla h2{
+    color:#BECD00;
+     
+}
+#psla h3{
+       color:#CC071E;
+}
+#psla table{
+    color:#000000;
+}
+
+#vente h2{
+    color:#BECD00;
+     
+}
+
+#vente h3
+{
+     color:#CC071E;
+     text-align: left;
+}
+
+#vente p{
+   color:#000000;
+}
+
+#description{
+    text-align: left;
+}
+
+#Chantier iframe {
+    margin-left: -20px;
+}
+#accord{
+    text-align: left;
+    list-style-image : url(../images/etoile.png);
+    }
+    #accord a{
+        color: blue;
+    }
+#note{
+    text-align: left;
+    list-style-image : url(../images/etoile.png);
+}
+#note a{
+        color: blue;
+    }
+
+#livret{
+    text-align: left;
+    list-style-image : url(../images/etoile.png);
+}
+#livret a{
+        color: blue;
+    }
+    
+    .test{
+        margin: auto;
+        height: 150px;
+    }
+    
+    
+    #pv{
+    margin-left: 200px;   
+    text-align: left;
+    list-style-image : url(../images/etoile.png);
+    }
+    #pv a{
+        color: blue;
+    }
+    
+    #demarquation2{  
+
+        
+
+
+}

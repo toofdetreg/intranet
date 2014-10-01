@@ -1,0 +1,38 @@
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section, #colonegauche, #colonedroite{
+	display:block;
+        border: none;
+}
+
+a img
+{
+border: none;
+}
+
+img
+{
+border: none;
+}
+#colonegauche {
+  position: absolute;
+  top: 0px;
+  right: 325px;
+
+
+}
+#colonedroite {
+   position: absolute;
+  top: 0px;
+  left: 285px; 
+
+
+}
+#rechercherp{
+ width:280px;
+}
+#page{
+    position : relative;    
+    display: inline-block;
+    width:620px;
+    height:650px;
+    overflow : auto;
+}

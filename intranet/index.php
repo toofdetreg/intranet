@@ -1,0 +1,108 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <!--[if lt IE 9]>
+        <script type="text/javascript" src="js/html5shiv.js"></script>
+        <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+        <script type="text/javascript" src="js/PIE.js"></script>
+                <link rel="stylesheet" href="css/style_ie8.css" />
+        <![endif]-->
+
+        
+        <!--[if lt IE 8]>
+        <link rel="stylesheet" href="css/style_ie.css" />
+        <![endif]-->
+
+  <script src="js/jquery-1.10.2.min.js"></script>
+  <script src="js/jquery-ui-1.10.3.custom.min.js"></script>
+  <script src="js/jquery.ui.datepicker-fr.js"></script>
+  <script src="js/lightbox-2.6.min.js"></script>
+  <script src="js/placeme.js"></script>
+
+
+  <link rel="stylesheet" href="css/jquery-ui-1.10.3.custom.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/texte.css" />
+  <link rel="stylesheet" href="css/lightbox.css" />
+  <script>
+  $(function() {
+
+jQuery('input').filter('.datepicker').datepicker({ 
+    dateFormat: "yy-mm-dd",
+    changeMonth: true,
+      changeYear: true
+});  
+  });
+  </script>
+
+
+        <title>Intranet BMH</title>
+
+    </head>
+
+    <body>
+        <div id="wrapper">
+            <nav>
+                <a href="index.php" style="cursor:pointer;" ><div id="titreimg"></div></a>
+                <a href="index.php" style="cursor:pointer;"><div id="logo"></div></a>
+<?php include 'menu.php'; ?>
+            </nav>
+            <header>
+                <div id="recherche" >
+<?php 
+setlocale (LC_TIME, 'fr_FR.utf8','fra'); 
+$d = strftime("%A %d %B %Y");
+$date = ucfirst($d);
+
+echo $date ;
+   require 'stdujour.php';     
+        ?><br>
+Bonne f&ecirc;te aux : <?php echo $saintdujour; ?>
+
+                </div>
+                <div id="demarquation">
+                    <img src="./images/barre.png">
+                </div>
+            </header>
+
+
+            <aside>
+                <div id="annuaire"><img src="./images/annuaire.png">
+                    <div id="idannuaire">
+                        <?php include 'formannuaire.php'; ?>
+                    </div>
+                </div>
+                <div id="nouvelleembauche"><img src="./images/nouvelleembauche.png"></div>
+                <div id="coinpage"><img src="./images/coinpage.png"></div>
+            </aside>
+            
+                        <div id="page">
+                  <div id="colonegauche">
+                    <div id="revupressebox">
+                        <?php include 'rp.php'; ?>
+                    </div>
+                      
+                    <div id="hebdobox">
+                            <?php include 'heb.php'; ?>
+                    </div>
+                    </div>
+            
+                <div id="colonedroite">			
+                    <div id="actualites">
+                        <div id="entete"><img src="./images/actualite.png"></div>
+                        
+                           <?php include 'actualitetest.php'; ?>
+                      
+                    </div>
+                    <div id="autrebox" style="color: #FFF"><img src="./images/cos.png">
+                    Prochaine permanence de la COS  <br/> jeudi 3 juillet 2014 de 14h00 &agrave; 16h00.
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </body>
+</html>
